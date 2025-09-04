@@ -47,6 +47,7 @@ int main(){
     printf("\n **** Cadastro de Carta 2 **** \n");
     printf("Digite o Estado (A-H): ");
     scanf(" %c", &estado2); // Adicionado espaço para ignorar o caractere de nova linha
+    
     printf("Digite o Codigo da Carta (a letra do estado seguida de um número de 01-04): ");
     scanf("%s", codigo2);
 
